@@ -1,0 +1,36 @@
+  {
+    "items": [
+      {
+        "id": "slide_01",
+        "img": "img/index/subscribe/subscriber.jpg",
+        "alt": "Subscriber Amanda Rose",
+        "text": "\"Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium\"",
+        "signature": "Amanda Rose",
+        "town": "Verginia, USA"
+      },
+      {
+        "id": "slide_02",
+        "img": "img/index/subscribe/subscriber2.jpg",
+        "alt": "Subscriber Ban Richards",
+        "text": "\"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam consequatur dignissimos dolores exercitationem labore minima molestiae nesciunt officia optio quae, quaerat quod sit unde?\"",
+        "signature": "Ban Richards",
+        "town": "Nebraska, USA"
+      },
+      {
+        "id": "slide_03",
+        "img": "img/index/subscribe/subscriber3.jpg",
+        "alt": "Subscriber Veronika Shin",
+        "text": "\"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consequuntur error eveniet magnam, omnis quo sed temporibus velit?\"",
+        "signature": "Veronica Shin",
+        "town": "Ontario, Canada"
+      },
+      {
+        "id": "slide_04",
+        "img": "img/index/subscribe/subscriber4.jpg",
+        "alt": "Subscriber Ajit Marvari",
+        "text": "\"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consectetur culpa distinctio eaque, eveniet magni natus nobis perspiciatis sit tempora totam veniam.\"",
+        "signature": "Ajit Marvari",
+        "town": "Uttar Pradesh, India"
+      }
+    ]
+  }

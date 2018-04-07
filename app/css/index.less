@@ -1,0 +1,236 @@
+@pink: #f16d7f;
+@gray: #e6e6e6;
+@placeholder: #a4a4a4;
+@darkgray: #6f6e6e;
+@fontparagrath: #9f9f9f;
+@fontheader: #232323;
+.brand {
+  position: relative;
+  margin-top: -45px;
+  background: url(../img/index/rasta-man.png);
+  padding-left: 230px;
+  margin-bottom: 100px;
+  &__block {
+    padding-top: 224px;
+    padding-bottom: 294px;
+    &_title {
+      padding-left: 12px;
+      line-height: 0.7;
+      border-left: 10px solid @pink;
+      text-transform: uppercase;
+      font-weight: bold;
+      .brand__block_title2 {
+        padding-top: 20px;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+        -webkit-margin-start: 0;
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+.offers {
+  padding-left: 15px;
+  &__title {
+    position: absolute;
+    top: 26px;
+    padding: 16px 18px 16px 16px;
+    background-color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    span {
+      font-size: 30px;
+    }
+  }
+  &__left {
+    display: inline-block;
+    padding-right: 5px;
+    &_big {
+      padding-bottom: 5px;
+      position: relative;
+    }
+    &_small {
+      padding-top: 5px;
+      position: relative;
+    }
+  }
+  &__right {
+    padding-left: 5px;
+    display: inline-block;
+    &_big {
+      padding-top: 5px;
+
+      position: relative;
+    }
+    &_small {
+      padding-bottom: 5px;
+      position: relative;
+    }
+  }
+}
+
+.featured {
+  text-align: center;
+  margin-bottom: 115px;
+  padding-left: 15px;
+  padding-right: 15px;
+  &__title {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    &_description {
+      margin-top: 17px;
+    }
+  }
+  &__itemblock {
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    flex-direction: row;
+    padding-bottom: 40px;
+    .featured__item {
+      text-align: left;
+      text-transform: uppercase;
+      position: relative;
+      -webkit-transition: box-shadow 0.5s ease;
+      -moz-transition: box-shadow 0.5s ease;
+      -ms-transition: box-shadow 0.5s ease;
+      -o-transition: box-shadow 0.5s ease;
+      transition: box-shadow 0.5s ease;
+      &:hover {
+        -webkit-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);
+        -moz-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);
+        box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);
+        .featured__item_img {
+          opacity: 0.3;
+        }
+        .featured__item_add {
+          opacity: 1;
+        }
+      }
+      &_title {
+        display: block;
+        font-weight: bold;
+        font-size: 13px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+      }
+      &_price {
+        padding-top: 10px;
+        font-size: 16px;
+        color: @pink;
+        padding-bottom: 22px;
+        padding-left: 15px;
+      }
+      &_add {
+        position: absolute;
+        top: 35%;
+        left: 25%;
+        background-color: inherit;
+        padding: 10px 10px 10px 10px;
+        color: white;
+        border-color: white;
+        cursor: pointer;
+        opacity: 0;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-transition: opacity 0.5s ease;
+        -moz-transition: opacity 0.5s ease;
+        -ms-transition: opacity 0.5s ease;
+        -o-transition: opacity 0.5s ease;
+        i {
+          padding-right: 10px;
+          color: white;
+
+        }
+      }
+      &_img {
+        transition: opacity 0.5s ease;
+      }
+      .substrate {
+        background-color: black;
+      }
+    }
+  }
+  &__browseall {
+    text-align: center;
+    padding: 15px 24px 15px 24px;
+    &_link {
+      padding: 15px 24px 15px 24px;
+      background-color: @pink;
+      font-size: 14px;
+      color: white;
+      -webkit-transition: background-color 0.5s ;
+      -moz-transition: background-color 0.5s;
+      -ms-transition: background-color 0.5s;
+      -o-transition: background-color 0.5s;
+      transition: background-color 0.5s;
+      &:hover {
+        background-color: lighten(@pink, 5);
+      }
+    }
+  }
+}
+.advantages {
+  display: flex;
+  &__leftside {
+    position: relative;
+    img {
+
+    }
+    &_title {
+      position: absolute;
+      top: 145px;
+      left: 38px;
+      h2 {
+        color: white;
+        text-transform: uppercase;
+        span {
+          text-transform: uppercase;
+        }
+      }
+      h3 {
+        text-transform: uppercase;
+        font-size: 32px;
+        color: white;
+      }
+    }
+  }
+  &__rightside {
+    background-color: #222224;
+    width: 100%;
+    max-height: 529px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    line-height: 1.5;
+    h4 {
+      color: white;
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+      color: white;
+      font-weight: 300;
+    }
+    &_block {
+      padding: 25px 42px 25px 113px;
+      .rightside__block_title {
+        padding-bottom: 20px;
+      }
+      .rightside__block_description {
+        padding-bottom: -68px;
+      }
+      img {
+        position: absolute;
+        left: 38px;
+      }
+    }
+  }
+}

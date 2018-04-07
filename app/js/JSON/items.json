@@ -1,0 +1,789 @@
+{
+  "items": [
+    {
+      "id": "item_3",
+      "title": "Club jacket",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_003.jpg",
+      "link": "#",
+      "price": 63.99,
+      "rating": 5,
+      "designer": "Binburhan",
+      "material": "Cotton",
+      "brand": "BinJeans",
+      "category": "Jackets & Coats",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "M",
+        "S",
+        "XS"
+      ]
+    },
+    {
+      "id": "item_4",
+      "title": "Autumn jacket",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_004.jpg",
+      "link": "#",
+      "price": 110,
+      "rating": 0,
+      "designer": "Samuel Lee",
+      "material": "Cotton",
+      "brand": "Lee",
+      "category": "Jackets & Coats",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S",
+        "XS"
+      ]
+    },
+    {
+      "id": "item_8",
+      "title": "Man's short pants",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_008.jpg",
+      "link": "#",
+      "price": 25,
+      "rating": 3.5,
+      "designer": "Binburhan",
+      "material": "Cotton",
+      "brand": "BinJeans",
+      "category": "Pant",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XL",
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_1",
+      "title": "Mango people t-shirt",
+      "description": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+      "img": "img/index/items/item_001.jpg",
+      "link": "#",
+      "price": 52,
+      "rating": 4.5,
+      "designer": "Binburhan",
+      "material": "Cotton",
+      "brand": "BinJeans",
+      "category": "T-Shirt",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL"
+      ]
+    },
+    {
+      "id": "item_5",
+      "title": "Black & White dress",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_005.jpg",
+      "link": "#",
+      "price": 36.21,
+      "rating": 4,
+      "designer": "Samuel Lee",
+      "material": "Cotton",
+      "brand": "Lee",
+      "category": "Dress",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_2",
+      "title": "Red girl's top",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_002.jpg",
+      "link": "#",
+      "price": 21,
+      "rating": 3.5,
+      "designer": "Tarik Black",
+      "material": "Cotton",
+      "brand": "Tarik",
+      "category": "Top",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "M",
+        "S",
+        "XXS"
+      ]
+    },
+    {
+      "id": "item_7",
+      "title": "Summer dress",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_007.jpg",
+      "link": "#",
+      "price": 49,
+      "rating": 4,
+      "designer": "Binburhan",
+      "material": "Cotton",
+      "brand": "BinJeans",
+      "category": "Dress",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_9",
+      "title": "Men's Pants",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_009.jpg",
+      "link": "#",
+      "price": 35.20,
+      "rating": 3.5,
+      "designer": "Levi Straus",
+      "material": "Cotton",
+      "brand": "Levis",
+      "category": "Pant",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_10",
+      "title": "Men,s Shirt",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_010.jpg",
+      "link": "#",
+      "price": 52,
+      "rating": 4.5,
+      "designer": "Tommy Hilfiger",
+      "material": "Cotton",
+      "brand": "TommyHilfiger",
+      "category": "T-Shirt",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_11",
+      "title": "Sports Sweatshirt",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_011.jpg",
+      "link": "#",
+      "price": 77,
+      "rating": 5,
+      "designer": "Tommy Hilfiger",
+      "material": "Cotton",
+      "brand": "TommyHilfiger",
+      "category": "Sweatshirt",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_12",
+      "title": "Short-sleeved Shirt",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_012.jpg",
+      "link": "#",
+      "price": 49,
+      "rating": 4,
+      "designer": "Nerutdin Eroglu",
+      "material": "Cotton",
+      "brand": "Colin's",
+      "category": "T-Shirt",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_13",
+      "title": "Autumn Insulated Jacket",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_013.jpg",
+      "link": "#",
+      "price": 129.90,
+      "rating": 3.5,
+      "designer": "Nerutdin Eroglu",
+      "material": "Cotton",
+      "brand": "Colin's",
+      "category": "Jackets & Coats",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_14",
+      "title": "Men's autumn jacket",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_014.jpg",
+      "link": "#",
+      "price": 100,
+      "rating": 4,
+      "designer": "Levi Straus",
+      "material": "Cotton",
+      "brand": "Levis",
+      "category": "Jackets & Coats",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_15",
+      "title": "Long Sweatshirt",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_015.jpg",
+      "link": "#",
+      "price": 49,
+      "rating": 4,
+      "designer": "Binburhan",
+      "material": "Cotton",
+      "brand": "BinJeans",
+      "category": "Sweatshirt",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "XS"
+      ]
+    },
+    {
+      "id": "item_16",
+      "title": "Club jacket",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_003.jpg",
+      "link": "#",
+      "price": 63.99,
+      "rating": 5,
+      "designer": "Binburhan",
+      "material": "Cotton",
+      "brand": "BinJeans",
+      "category": "Jackets & Coats",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_17",
+      "title": "Autumn jacket",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_004.jpg",
+      "link": "#",
+      "price": 110,
+      "rating": 0,
+      "designer": "Samuel Lee",
+      "material": "Cotton",
+      "brand": "Lee",
+      "category": "Jackets & Coats",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_18",
+      "title": "Man's short pants",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_008.jpg",
+      "link": "#",
+      "price": 25,
+      "rating": 3.5,
+      "designer": "Binburhan",
+      "material": "Cotton",
+      "brand": "BinJeans",
+      "category": "Pant",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "L",
+        "M",
+        "XXS"
+      ]
+    },
+    {
+      "id": "item_19",
+      "title": "Mango people t-shirt",
+      "description": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+      "img": "img/index/items/item_001.jpg",
+      "link": "#",
+      "price": 52,
+      "rating": 4.5,
+      "designer": "Binburhan",
+      "material": "Cotton",
+      "brand": "BinJeans",
+      "category": "T-Shirt",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "XXS",
+        "XS"
+      ]
+    },
+    {
+      "id": "item_20",
+      "title": "Black & White dress",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_005.jpg",
+      "link": "#",
+      "price": 36.21,
+      "rating": 4,
+      "designer": "Samuel Lee",
+      "material": "Cotton",
+      "brand": "Lee",
+      "category": "Dress",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_21",
+      "title": "Red girl's top",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_002.jpg",
+      "link": "#",
+      "price": 21,
+      "rating": 3.5,
+      "designer": "Tarik Black",
+      "material": "Cotton",
+      "brand": "Tarik",
+      "category": "Top",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "S",
+        "XS"
+      ]
+    },
+    {
+      "id": "item_22",
+      "title": "Summer dress",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_007.jpg",
+      "link": "#",
+      "price": 49,
+      "rating": 4,
+      "designer": "Binburhan",
+      "material": "Cotton",
+      "brand": "BinJeans",
+      "category": "Dress",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "XXS"
+      ]
+    },
+    {
+      "id": "item_23",
+      "title": "Club jacket",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_003.jpg",
+      "link": "#",
+      "price": 63.99,
+      "rating": 5,
+      "designer": "Binburhan",
+      "material": "Cotton",
+      "brand": "BinJeans",
+      "category": "Jackets & Coats",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XL",
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_24",
+      "title": "Autumn jacket",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_004.jpg",
+      "link": "#",
+      "price": 110,
+      "rating": 0,
+      "designer": "Samuel Lee",
+      "material": "Cotton",
+      "brand": "Lee",
+      "category": "Jackets & Coats",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "L",
+        "M",
+        "S",
+        "XS",
+        "XXS"
+      ]
+    },
+    {
+      "id": "item_25",
+      "title": "Man's short pants",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_008.jpg",
+      "link": "#",
+      "price": 25,
+      "rating": 3.5,
+      "designer": "Binburhan",
+      "material": "Cotton",
+      "brand": "BinJeans",
+      "category": "Pant",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_26",
+      "title": "Mango people t-shirt",
+      "description": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+      "img": "img/index/items/item_001.jpg",
+      "link": "#",
+      "price": 52,
+      "rating": 4.5,
+      "designer": "Binburhan",
+      "material": "Cotton",
+      "brand": "BinJeans",
+      "category": "T-Shirt",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_27",
+      "title": "Men's Pants",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_009.jpg",
+      "link": "#",
+      "price": 35.20,
+      "rating": 3.5,
+      "designer": "Levi Straus",
+      "material": "Cotton",
+      "brand": "Levis",
+      "category": "Pant",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S",
+        "XS"
+      ]
+    },
+    {
+      "id": "item_28",
+      "title": "Men,s Shirt",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_010.jpg",
+      "link": "#",
+      "price": 52,
+      "rating": 4.5,
+      "designer": "Tommy Hilfiger",
+      "material": "Cotton",
+      "brand": "TommyHilfiger",
+      "category": "T-Shirt",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_29",
+      "title": "Sports Sweatshirt",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_011.jpg",
+      "link": "#",
+      "price": 77,
+      "rating": 5,
+      "designer": "Tommy Hilfiger",
+      "material": "Cotton",
+      "brand": "TommyHilfiger",
+      "category": "Sweatshirt",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_30",
+      "title": "Short-sleeved Shirt",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_012.jpg",
+      "link": "#",
+      "price": 49,
+      "rating": 4,
+      "designer": "Nerutdin Eroglu",
+      "material": "Cotton",
+      "brand": "Colin's",
+      "category": "T-Shirt",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_31",
+      "title": "Autumn Insulated Jacket",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_013.jpg",
+      "link": "#",
+      "price": 129.90,
+      "rating": 3.5,
+      "designer": "Nerutdin Eroglu",
+      "material": "Cotton",
+      "brand": "Colin's",
+      "category": "Jackets & Coats",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S",
+        "XS"
+      ]
+    },
+    {
+      "id": "item_32",
+      "title": "Men's autumn jacket",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_014.jpg",
+      "link": "#",
+      "price": 100,
+      "rating": 4,
+      "designer": "Levi Straus",
+      "material": "Cotton",
+      "brand": "Levis",
+      "category": "Jackets & Coats",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    {
+      "id": "item_33",
+      "title": "Long sweatshirt",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_015.jpg",
+      "link": "#",
+      "price": 49,
+      "rating": 4,
+      "designer": "Binburhan",
+      "material": "Cotton",
+      "brand": "BinJeans",
+      "category": "Sweatshirt",
+      "color": [
+        "red",
+        "blue",
+        "pink"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S",
+        "XS"
+      ]
+    }
+  ]
+}

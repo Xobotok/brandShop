@@ -1,0 +1,132 @@
+@pink: #f16d7f;
+@gray: #e6e6e6;
+@placeholder: #a4a4a4;
+@darkgray: #6f6e6e;
+@fontparagrath: #9f9f9f;
+@fontheader: #232323;
+.registration {
+  border: 2px solid @gray;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-top: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  &__form_title {
+    padding-top: 10px;
+    font-size: 28px;
+    color: black;
+    text-align: center;
+  }
+  &__form_description {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+
+  }
+  &__form {
+    border: 2px solid @gray;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: left;
+    .leftside {
+      display: flex;
+      flex-direction: column;
+      padding-right: 20px;
+      p {
+        color: @pink;
+      }
+    }
+    .rightside {
+      display: flex;
+      flex-direction: column;
+      padding-left: 20px;
+      p {
+        color: @pink;
+      }
+    }
+    &_field {
+      font-size: 18px;
+      width: 400px;
+      height: 45px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      padding-left: 15px;
+      color: darken(@darkgray, 10);
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      border: 1px solid darken(@gray, 10);
+      -webkit-transition: border-color 0.5s;
+      -moz-transition: border-color 0.5s;
+      -ms-transition: border-color 0.5s;
+      -o-transition: border-color 0.5s;
+      transition: border-color 0.5s;
+      &:focus {
+        border-color: darken(@darkgray, 10);
+      }
+      &::-webkit-input-placeholder {
+        color: @placeholder;
+        font-size: 16px;
+      }
+      &:-moz-placeholder {
+        color: @placeholder;
+        font-size: 16px;
+      }
+
+    }
+    label {
+      margin-left: 5px;
+      margin-top: 10px;
+      font-size: 18px;
+      color: darken(@darkgray, 5);
+      font-weight: bold;
+      span {
+        color: @pink;
+      }
+    }
+    &_request {
+      padding-top: 5px;
+      color: @pink;
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  }
+  .registration__form_submit {
+    text-align: center;
+    font-size: 18px;
+    color: @pink;
+    border: 1px solid @pink;
+    padding: 13px 0px;
+    width: 80%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: background-color 0.7s;
+    -moz-transition: background-color 0.7s;
+    -ms-transition: background-color 0.7s;
+    -o-transition: background-color, 0.7s;
+    transition: background-color 0.7s;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    &:hover {
+      background-color: @pink;
+      color: white;
+    }
+  }
+  .wrong {
+    border-color: @pink;
+  }
+}
