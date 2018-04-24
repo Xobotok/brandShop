@@ -92,6 +92,7 @@ button,
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
+  cursor: pointer;
 }
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -246,10 +247,21 @@ a:focus {
 input,
 textarea {
   outline: none;
+  font-size: 14px;
 }
 input:active,
 textarea:active {
   outline: none;
+}
+input {
+  -webkit-transition: border-color 0.5s;
+  -moz-transition: border-color 0.5s;
+  -ms-transition: border-color 0.5s;
+  -o-transition: border-color 0.5s;
+  transition: border-color 0.5s;
+}
+input:focus {
+  border-color: #f16d7f;
 }
 button {
   outline: none;
@@ -512,6 +524,8 @@ span {
   cursor: pointer;
 }
 .header__basket .basket__drop {
+  max-height: 600px;
+  overflow: auto;
   background-color: white;
   padding-bottom: 21px;
   padding-left: 16px;
@@ -536,7 +550,6 @@ span {
   display: block;
   padding: 21px 0px;
   white-space: nowrap;
-  overflow: hidden;
   text-overflow: ellipsis;
   border-bottom: 1px solid #e6e6e6;
 }
@@ -791,7 +804,7 @@ span {
 }
 .reviews {
   margin-top: 97px;
-  background: url("/img/index/subscribe/background.jpg") no-repeat;
+  background: url('/img/index/subscribe/background.jpg') no-repeat;
   width: 100%;
   height: 400px;
   display: flex;

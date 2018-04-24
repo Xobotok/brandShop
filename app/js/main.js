@@ -5,9 +5,16 @@ class Dropdown {
         this.dropmenu = document.getElementById(dropmenu);
         this.dropmenuLinks = document.getElementsByClassName(dropmenuLinks);
         this.caretElement = document.getElementById(caret);
-        this.element.addEventListener("click", this.dropped.bind(this));
+        this. initializeButtons();
+    }
+    initializeButtons(){
+        this.element.addEventListener("click",  () => {
+            this.dropped()
+        });
         for (let i = 0; i < this.dropmenuLinks.length; i++) {
-            this.dropmenuLinks[i].addEventListener("click", this.changeTitle.bind(this));
+            this.dropmenuLinks[i].addEventListener("click", () => {
+                this.changeTitle()
+            });
         }
     }
     dropped() {
@@ -52,7 +59,6 @@ class Basket {
             this.items = JSON.parse(localStorage.getItem("basket"));
         }
         this.basketDropRender(this);
-        console.log(this.items);
     }
 
     refreshTotalPrice(){
@@ -78,28 +84,12 @@ class Basket {
                    this.items.splice(i, 1);
                    i--;
                    break;
-               } else if (this.items[i].id === item.id && this.items[i].count > 1){
+               } else if (this.items[i].id === item.id && parseInt(this.items[i].count) > 1){
                    this.items[i].count--;
                    break;
                }
            }
         }
-        // for (let i = 0; i < this.items.length; i++) {
-        //     if (item.actualSize) {
-        //         if(item.id === this.items[i].id && item.actualSize === this.items[i].actualSize &&
-        //         item.actualColor === this.items[i].actualSize) {
-        //             this.items.splice(i, 1);
-        //             i--;
-        //         }
-        //         break;
-        //     }
-        //     if(item.id === this.items[i].id) {
-        //         this.items.splice(i, 1);
-        //         i--;
-        //         break;
-        //     }
-        // }
-        console.log(this.items);
         localStorage.setItem("basket", JSON.stringify(this.items));
         this.refreshTotalPrice();
         this.basketDropRender(this);
@@ -275,7 +265,6 @@ class Basket {
                 text: items[i].title,
             });
             $title.appendTo($div);
-
             let $color = $("<button />", {
                 class: "product__item_color",
                 text: "Color: " + items[i].actualColor[0].toUpperCase() + items[i].actualColor.substring(1),
@@ -339,7 +328,7 @@ class Basket {
 
             let $quantity = $("<input>", {
                 type: "text",
-                value: items[i].count,
+                value: parseInt(items[i].count),
                 class: "product__item_quantity"
             });
             $quantity.appendTo($productsItem);
@@ -356,23 +345,22 @@ class Basket {
             $quantity.on("input", function (ev) {
                 let reg = /\D/;
                 if(reg.exec($(ev.target).val())) {
-                    this.value = items[i].count;
+                    this.value = parseInt(items[i].count);
                     $subtotal.text("$" + (items[i].count * items[i].price).toFixed(2));
-                    console.log("Регулярка не работает")
                 } else {
                     if(parseInt(this.value) === 0) {
                         this.value = 1;
-                        items[i].count = this.value();
+                        items[i].count = this.value;
                     }
-                    if($(ev.target).val() < 99) {
-                    items[i].count = $(ev.target).val();
+                    if($(ev.target).val() <= 99) {
+                    items[i].count = parseInt($(ev.target).val());
                     this.value = items[i].count;
                     $subtotal.text("$" + (items[i].count * items[i].price).toFixed(2));
                     localStorage.setItem("basket", JSON.stringify(items));
                     context.basketDropRender(context);
                     } else {
                         $(ev.target).val(99);
-                        items[i].count = this.value();
+                        items[i].count = 99;
                         context.basketDropRender(context);
                     }
                 }
@@ -398,12 +386,13 @@ class Basket {
             class: "product__itembuttons",
         });
         $buttonContainer.appendTo($("#cont"));
-        let $buttonClear = $("<button />", {
+        this.$buttonClear = $("<button />", {
             class: "product__itembuttons_button",
+            id: "product__itembuttons_button",
             text: "clear shopping cart",
         });
-        $buttonClear.appendTo($buttonContainer);
-        $buttonClear.on("click", function () {
+        this.$buttonClear.appendTo($buttonContainer);
+        this.$buttonClear.on("click", function () {
             context.clearBasket();
             context.basketDropRender(context);
             context.bigBasketRender();
@@ -414,6 +403,7 @@ class Basket {
             href: "product.html"
         });
         $buttonContinue.appendTo($buttonContainer);
+
     }
     removeAll() {
         while (this.dropDownCart.dropmenu.firstChild) {
@@ -535,8 +525,8 @@ class Item {
         this.count = 1;
         this.actualColor = this.color[0][0].toUpperCase() + this.color[0].substring(1).toLowerCase();
         this.actualSize = this.size[0].toUpperCase();
+        this.collection = "";
     }
-
 }
 class SlideItem {
     constructor(id, img, alt, text, signature, town) {
@@ -549,7 +539,6 @@ class SlideItem {
         this.button = "";
     }
 }
-
 class Slider {
     constructor() {
         let that = this;

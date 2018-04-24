@@ -97,6 +97,7 @@ button,
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
+  cursor: pointer;
 }
 
 button::-moz-focus-inner,
@@ -264,10 +265,21 @@ a:active, a:focus {
 
 input, textarea {
   outline: none;
+  font-size: 14px;
 }
 
 input:active, textarea:active {
   outline: none;
+}
+input {
+  -webkit-transition: border-color 0.5s;
+  -moz-transition: border-color 0.5s;
+  -ms-transition: border-color 0.5s;
+  -o-transition: border-color 0.5s;
+  transition: border-color 0.5s;
+}
+input:focus {
+  border-color: @pink;
 }
 
 button {
@@ -555,6 +567,8 @@ span {
     }
   }
   .basket__drop {
+    max-height: 600px;
+    overflow: auto;
     background-color: white;
     padding-bottom: 21px;
     padding-left: 16px;
@@ -566,7 +580,6 @@ span {
     width: 260px;
     flex-direction: column;
     align-content: center;
-
     .noItems {
       font-size: 16px;
       color: @darkgray;
@@ -580,7 +593,6 @@ span {
       display: block;
       padding: 21px 0px;
       white-space: nowrap;
-      overflow: hidden;
       text-overflow: ellipsis;
       &_img {
         float: left;
@@ -867,7 +879,7 @@ span {
 
 .reviews {
   margin-top: 97px;
-  background: url("/img/index/subscribe/background.jpg") no-repeat;
+  background: url('/img/index/subscribe/background.jpg') no-repeat;
   width: 100%;
   height: 400px;
   display: flex;

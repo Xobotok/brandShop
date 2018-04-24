@@ -1,0 +1,30 @@
+[
+    {
+      "id": "coupon_1",
+      "code": "shut up and take my money!",
+      "type": "category",
+      "discount": 15,
+      "items": ["Jackets & Coats", "Pant", "Top"]
+    },
+    {
+      "id": "coupon_2",
+      "code": "gfaaaQds",
+      "type": "regular",
+      "discount": 10,
+      "items": [500]
+    },
+    {
+      "id": "coupon_3",
+      "code": "i love brandshop",
+      "type": "all",
+      "discount": 5,
+      "items": []
+    },
+    {
+      "id": "coupon_4",
+      "code": "wqrxaawer",
+      "type": "personal",
+      "discount": 25,
+      "items": ["item_3", "item_18", "item_22", "item_32"]
+    }
+]

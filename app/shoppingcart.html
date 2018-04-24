@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Shopping Cart</title>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="src/jquery-ui.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/shoppingcart.css">
 </head>
@@ -82,19 +82,57 @@
         <p class="path__links_link lastlink"> shopping cart </p>
     </div>
 </div>
-
+<div class="product__title container">
+    <h5 class="product__title_details maintitle">Product Details</h5>
+    <h5 class="product__title_details">unite price</h5>
+    <h5 class="product__title_details">quantity</h5>
+    <h5 class="product__title_details">shipping</h5>
+    <h5 class="product__title_details">subtotal</h5>
+    <h5 class="product__title_details">action</h5>
+</div>
+<p class="changes">Click color or size to change.</p>
 <section class="product container" id = "cont">
-    <div class="product__title">
-        <h5 class="product__title_details maintitle">Product Details</h5>
-        <h5 class="product__title_details">unite price</h5>
-        <h5 class="product__title_details">quantity</h5>
-        <h5 class="product__title_details">shipping</h5>
-        <h5 class="product__title_details">subtotal</h5>
-        <h5 class="product__title_details">action</h5>
-    </div>
     </section>
-<section class="shipping"></section>
+<section class="shipping container" id = "shipping">
+    <div class="shipping__address">
+        <h4 class="shipping__address_title">Shipping address</h4>
+        <form action="#" id="shipping__details">
+        <input type="text" class="shipping__address_country ui-widget" id = "country__input" placeholder = "Country">
+        <i class="fa fa-caret-down" aria-hidden="true"></i>
+            <p class="shipping__country_invalid" id = "country__invalid">
+                Country of delivery not found.
+            </p>
+        <input type="text" class="shipping__address_country" id = "state__input" placeholder = "State">
+            <p class="shipping__country_invalid" id = "state__invalid">
+                Please, enter your state.
+            </p>
+            <input type="text" class="shipping__address_country" id = "postcode__input" placeholder = "Postcode/Zip">
+            <p class="shipping__country_invalid" id = "postcode__invalid">
+                Please, enter your postcode.
+            </p>
+            <button class="shipping__address_quote" id ="get_the_cost">Get the cost</button>
+        </form>
+        <p class="shipping__address_cost" id ="shipping__address_cost"></p>
+    </div>
+    <div class="shipping__discount">
+    <h4 class="shipping__discount_title">coupon discount</h4>
+        <p class="shipping__discount_description">Enter your coupon code if you have one</p>
+        <input type="text" class="shipping__discount_state" id = "coupon__input" placeholder="Coupon code">
+        <p class="shipping__discount_nocoupon" id = "shipping__discount_nocoupon">You have not activated any coupons yet.</p>
+        <button class="shipping__discount_apply" id ="shipping__discount_apply">apply coupon</button>
+    </div>
+    <div class="shipping__total">
+        <h5 class="shipping__total_subtotal" id = "shipping__total_subtotal"></h5>
+        <h4 class="shipping__total_grandtotal" id = "shipping__total_grandtotal">Grand total <span>$900</span></h4>
+        <p class="shipping__total_discount invisible" id = "shipping__total_discount"></p>
+        <button class="shipping__total_order" id = "shipping__total_order">proceed to checkout</button>
+    </div>
+</section>
 
+<div class="fixed">
+<div class="orderdialog" id = "orderdialog">
+</div>
+</div>
 <section class="reviews">
     <div class="slider container" id = "slider">
 
@@ -161,8 +199,8 @@
         </div>
     </div>
 </div>
-<script src = "js/jquery-3.3.1.min.js"></script>
-<script src = "js/jquery-ui.js"></script>
+<script src = "src/jquery-3.3.1.min.js"></script>
+<script src = "src/jquery-ui.js"></script>
 <script src = "js/main.js"></script>
 <script src = "js/shoppingcart.js"></script>
 
@@ -174,7 +212,8 @@
         new Dropdown("header__myAccount", "dropdown__myAccount");
         jsonNavigationRequest("./js/JSON/navigation.json");
         new Slider();
-
+        let order = new Order(basket);
+        new CouponList(order);
     };
 </script>
 </body>

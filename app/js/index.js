@@ -1,3 +1,4 @@
+'use strict';
 class IndexItems {
     constructor(count, basket, row, column) {
         let that = this;
@@ -27,7 +28,6 @@ class IndexItems {
 
     }
     render(items, basket, row, column){
-
         for (let n = 0; n < row; n++) {
             let $itemblock = $('<div />', {
                 class: "featured__itemblock",

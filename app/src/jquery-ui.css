@@ -600,12 +600,6 @@ button.ui-button::-moz-focus-inner {
 	margin: -10px 0 0 0;
 	padding: 1px;
 	height: 20px;
-	z-index: 99;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-	border-color: deeppink;
-	background-color: #fff;
 }
 .ui-dialog .ui-dialog-content {
 	position: relative;
