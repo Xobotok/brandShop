@@ -5,12 +5,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MyShop</title>
+    <title>Product</title>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="src/jquery-ui.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <link rel="stylesheet" href="css/registration.css">
+    <link rel="stylesheet" href="css/products__item.css">
 </head>
 <body>
 <section class="header container">
@@ -71,34 +70,78 @@
     </ul>
 </section>
 
-<section class="registration container">
-    <h2 class="registration__form_title">
-        Registration
-    </h2>
-    <p class="registration__form_description">
-        Please fill the form field and click <span>Submit form</span>
-    </p>
-    <form action="#" class="registration__form" id = "registration__form">
-        <div class="leftside">
-            <label for="registration__form_name">Name <span>*</span></label>
-            <input type="text" class="registration__form_field" id = "registration__form_name" placeholder="Enter your name">
-            <p id="wrong__name" class = "invisible">You typed the name wrong. The name should consist only of Latin and Cyrillic letters.</p>
-            <label for="registration__form_country">Country</label>
-            <input type="text" class="registration__form_field" id = "registration__form_country" placeholder="Enter your country">
-            <p class="registration__form_request">* Request Fields</p>
-            <button class="registration__form_submit" id = "registration__form_submit">Submit Form</button>
+<div class="path">
+    <div class="path__main container">
+        <h4 class="path__main_title">products</h4>
+    </div>
+
+    <div class="path__links container">
+        <a href="#" class="path__links_link">home </a>
+        <p>/</p>
+        <a href="#" class="path__links_link"> men </a>
+        <p>/</p>
+        <p class="path__links_link lastlink"> products </p>
+    </div>
+</div>
+
+<section class="product">
+    <div class="product__img" id = "product__img">
+
+    </div>
+    <div class="product__details container">
+        <h5 class="product__details_collection" id = "product__details_collection"></h5>
+        <h4 class="product__details_name" id = "product__details_name"></h4>
+        <p class="product__details_description" id = "product__details_description"></p>
+        <h5 class="product__details_material" id = "product__details_material">Material: </h5>
+        <h5 class="product__details_designer" id = "product__details_designer">Designer: </h5>
+        <h4 class="product__details_price" id = "product__details_price"></h4>
+        <div class="product__extra">
+            <div class="product__extra_color">
+                <h5 class="extra__color_title">choose color</h5>
+                <button class="extra__color_color" id = "extra__color_color"></button>
+                <ul id="extra__color_colors"></ul>
+            </div>
+            <div class="product__extra_size">
+                <h5 class="extra__color_title">choose size</h5>
+                <button class="extra__color_color" id = "extra__color_size"></button>
+                <ul id="extra__color_sizes"></ul>
+            </div>
+            <div class="product__extra_quantity">
+                <h5 class="extra__color_title">quantity</h5>
+                <input type = "text" class="extra__color_color" id = "extra__color_quantity">
+            </div>
         </div>
-        <div class="rightside">
-        <label for="registration__form_mail">Email <span>*</span></label>
-        <input type="text" class="registration__form_field" id = "registration__form_mail" placeholder="Enter your mail">
-            <p id="wrong__email" class = "invisible">You entered the mail incorrectly. Check the e-mail address entered.</p>
-            <label for="registration__form_password">Password <span>*</span></label>
-            <input type="password" class="registration__form_field" id = "registration__form_password" placeholder="Enter your password">
-            <p id="wrong__password" class = "invisible">The password must contain 6 characters of latin letters or digits.</p>
-            <label for="registration__form_confirm">Confirm password <span>*</span></label>
-        <input type="password" class="registration__form_field" id = "registration__form_confirm" placeholder="Confirm password">
-            <p id="wrong__confirm" class = "invisible">Passwords do not match.</p>
+        <button class="product__button_add" id = "product__button_add"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+    </div>
+</section>
+<section class="arrivals container">
+    <h3 class="arrivals__title">You may like also</h3>
+    <div class="arrivals__items">
+        <div class="arrivals__item" id = "arrivals__item1">
+
         </div>
+        <div class="arrivals__item" id = "arrivals__item2">
+
+        </div>
+        <div class="arrivals__item" id = "arrivals__item3">
+
+        </div>
+        <div class="arrivals__item" id = "arrivals__item4">
+
+        </div>
+    </div>
+</section>
+<section class="reviews">
+    <div class="slider container" id = "slider">
+
+    </div>
+    <form action="#" class="reviews__subscribe">
+        <h4 class="reviews__subscribe_title">Subscribe</h4>
+        <h5 class="reviews__subscribe_description">for our newletter and promotion</h5>
+        <input type="text" class="reviews__subscribe_input" placeholder="Enter Your Email">
+        <button class="reviews__subscribe_subscribe">
+            Subscribe
+        </button>
     </form>
 </section>
 <section class="footer container">
@@ -157,14 +200,16 @@
 <script src = "src/jquery-3.3.1.min.js"></script>
 <script src = "src/jquery-ui.js"></script>
 <script src = "js/main.js"></script>
-<script src = "js/registration.js"></script>
-
+<script src = "js/products__item.js"></script>
 <script>
     window.onload = function () {
         let basket = new Basket();
         new Dropdown("browse__drop-down", "header__browseDrop", "header__browseDrop_link", "browse__caret");
         new Dropdown("header__myAccount", "dropdown__myAccount");
         jsonNavigationRequest("./js/JSON/navigation.json");
+        new ProductItem("item_1", basket);
+        new Slider();
+
     };
 </script>
 </body>

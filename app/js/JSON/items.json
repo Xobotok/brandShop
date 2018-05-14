@@ -5,7 +5,7 @@
       "title": "Club jacket",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_003.jpg",
-      "link": "#",
+      "link": "./products__item_3.html",
       "price": 63.99,
       "rating": 5,
       "designer": "Binburhan",
@@ -22,14 +22,15 @@
         "M",
         "S",
         "XS"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_4",
       "title": "Autumn jacket",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_004.jpg",
-      "link": "#",
+      "link": "./products__item_4.html",
       "price": 110,
       "rating": 0,
       "designer": "Samuel Lee",
@@ -37,7 +38,7 @@
       "brand": "Lee",
       "category": "Jackets & Coats",
       "color": [
-        "red",
+        "green",
         "blue",
         "pink"
       ],
@@ -48,14 +49,15 @@
         "M",
         "S",
         "XS"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_8",
       "title": "Man's short pants",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_008.jpg",
-      "link": "#",
+      "link": "./products__item_8.html",
       "price": 25,
       "rating": 3.5,
       "designer": "Binburhan",
@@ -64,7 +66,7 @@
       "category": "Pant",
       "color": [
         "red",
-        "blue",
+        "black",
         "pink"
       ],
       "size": [
@@ -72,14 +74,40 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Men Collection"
+    },
+    {
+      "id": "item_6",
+      "title": "Man's short pants",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
+      "img": "img/index/items/item_008.jpg",
+      "link": "./products__item_6.html",
+      "price": 21.24,
+      "rating": 3.5,
+      "designer": "Binburhan",
+      "material": "Cotton",
+      "brand": "BinJeans",
+      "category": "Pant",
+      "color": [
+        "green",
+        "black",
+        "pink"
+      ],
+      "size": [
+        "XL",
+        "L",
+        "M",
+        "S"
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_1",
       "title": "Mango people t-shirt",
       "description": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
       "img": "img/index/items/item_001.jpg",
-      "link": "#",
+      "link": "./products__item_1.html",
       "price": 52,
       "rating": 4.5,
       "designer": "Binburhan",
@@ -89,19 +117,22 @@
       "color": [
         "red",
         "blue",
-        "pink"
+        "pink",
+        "green",
+        "black"
       ],
       "size": [
         "XXL",
         "XL"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_5",
       "title": "Black & White dress",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_005.jpg",
-      "link": "#",
+      "link": "./products__item_5.html",
       "price": 36.21,
       "rating": 4,
       "designer": "Samuel Lee",
@@ -117,14 +148,15 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Women Collection"
     },
     {
       "id": "item_2",
       "title": "Red girl's top",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_002.jpg",
-      "link": "#",
+      "link": "./products__item_2.html",
       "price": 21,
       "rating": 3.5,
       "designer": "Tarik Black",
@@ -142,14 +174,15 @@
         "M",
         "S",
         "XXS"
-      ]
+      ],
+      "collection": "Women Collection"
     },
     {
       "id": "item_7",
       "title": "Summer dress",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_007.jpg",
-      "link": "#",
+      "link": "./products__item_7.html",
       "price": 49,
       "rating": 4,
       "designer": "Binburhan",
@@ -166,14 +199,15 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Women Collection"
     },
     {
       "id": "item_9",
       "title": "Men's Pants",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_009.jpg",
-      "link": "#",
+      "link": "./products__item_9.html",
       "price": 35.20,
       "rating": 3.5,
       "designer": "Levi Straus",
@@ -191,14 +225,15 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_10",
       "title": "Men,s Shirt",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_010.jpg",
-      "link": "#",
+      "link": "./products__item_10.html",
       "price": 52,
       "rating": 4.5,
       "designer": "Tommy Hilfiger",
@@ -214,14 +249,15 @@
         "XXL",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_11",
       "title": "Sports Sweatshirt",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_011.jpg",
-      "link": "#",
+      "link": "./products__item_11.html",
       "price": 77,
       "rating": 5,
       "designer": "Tommy Hilfiger",
@@ -238,14 +274,15 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_12",
       "title": "Short-sleeved Shirt",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_012.jpg",
-      "link": "#",
+      "link": "./products__item_12.html",
       "price": 49,
       "rating": 4,
       "designer": "Nerutdin Eroglu",
@@ -263,14 +300,15 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_13",
       "title": "Autumn Insulated Jacket",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_013.jpg",
-      "link": "#",
+      "link": "./products__item_13.html",
       "price": 129.90,
       "rating": 3.5,
       "designer": "Nerutdin Eroglu",
@@ -288,14 +326,15 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_14",
       "title": "Men's autumn jacket",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_014.jpg",
-      "link": "#",
+      "link": "./products__item_14.html",
       "price": 100,
       "rating": 4,
       "designer": "Levi Straus",
@@ -311,14 +350,15 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_15",
       "title": "Long Sweatshirt",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_015.jpg",
-      "link": "#",
+      "link": "./products__item_15.html",
       "price": 49,
       "rating": 4,
       "designer": "Binburhan",
@@ -336,14 +376,15 @@
         "L",
         "M",
         "XS"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_16",
       "title": "Club jacket",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_003.jpg",
-      "link": "#",
+      "link": "./products__item_16.html",
       "price": 63.99,
       "rating": 5,
       "designer": "Binburhan",
@@ -359,14 +400,15 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_17",
       "title": "Autumn jacket",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_004.jpg",
-      "link": "#",
+      "link": "./products__item_17.html",
       "price": 110,
       "rating": 0,
       "designer": "Samuel Lee",
@@ -375,8 +417,8 @@
       "category": "Jackets & Coats",
       "color": [
         "red",
-        "blue",
-        "pink"
+        "green",
+        "black"
       ],
       "size": [
         "XXL",
@@ -384,14 +426,15 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_18",
       "title": "Man's short pants",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_008.jpg",
-      "link": "#",
+      "link": "./products__item_18.html",
       "price": 25,
       "rating": 3.5,
       "designer": "Binburhan",
@@ -399,22 +442,23 @@
       "brand": "BinJeans",
       "category": "Pant",
       "color": [
-        "red",
-        "blue",
-        "pink"
+        "black",
+        "green",
+        "blue"
       ],
       "size": [
         "L",
         "M",
         "XXS"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_19",
       "title": "Mango people t-shirt",
       "description": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
       "img": "img/index/items/item_001.jpg",
-      "link": "#",
+      "link": "./products__item_19.html",
       "price": 52,
       "rating": 4.5,
       "designer": "Binburhan",
@@ -422,7 +466,6 @@
       "brand": "BinJeans",
       "category": "T-Shirt",
       "color": [
-        "red",
         "blue",
         "pink"
       ],
@@ -433,14 +476,15 @@
         "M",
         "XXS",
         "XS"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_20",
       "title": "Black & White dress",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_005.jpg",
-      "link": "#",
+      "link": "./products__item_15.html",
       "price": 36.21,
       "rating": 4,
       "designer": "Samuel Lee",
@@ -448,7 +492,7 @@
       "brand": "Lee",
       "category": "Dress",
       "color": [
-        "red",
+        "black",
         "blue",
         "pink"
       ],
@@ -457,14 +501,15 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Women Collection"
     },
     {
       "id": "item_21",
       "title": "Red girl's top",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_002.jpg",
-      "link": "#",
+      "link": "./products__item_21.html",
       "price": 21,
       "rating": 3.5,
       "designer": "Tarik Black",
@@ -472,7 +517,7 @@
       "brand": "Tarik",
       "category": "Top",
       "color": [
-        "red",
+        "green",
         "blue",
         "pink"
       ],
@@ -482,14 +527,15 @@
         "L",
         "S",
         "XS"
-      ]
+      ],
+      "collection": "Women Collection"
     },
     {
       "id": "item_22",
       "title": "Summer dress",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_007.jpg",
-      "link": "#",
+      "link": "./products__item_22.html",
       "price": 49,
       "rating": 4,
       "designer": "Binburhan",
@@ -497,9 +543,7 @@
       "brand": "BinJeans",
       "category": "Dress",
       "color": [
-        "red",
-        "blue",
-        "pink"
+        "green"
       ],
       "size": [
         "XXL",
@@ -507,14 +551,15 @@
         "L",
         "M",
         "XXS"
-      ]
+      ],
+      "collection": "Women Collection"
     },
     {
       "id": "item_23",
       "title": "Club jacket",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_003.jpg",
-      "link": "#",
+      "link": "./products__item_23.html",
       "price": 63.99,
       "rating": 5,
       "designer": "Binburhan",
@@ -531,14 +576,15 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_24",
       "title": "Autumn jacket",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_004.jpg",
-      "link": "#",
+      "link": "./products__item_24.html",
       "price": 110,
       "rating": 0,
       "designer": "Samuel Lee",
@@ -546,9 +592,9 @@
       "brand": "Lee",
       "category": "Jackets & Coats",
       "color": [
-        "red",
+        "black",
         "blue",
-        "pink"
+        "green"
       ],
       "size": [
         "L",
@@ -556,14 +602,15 @@
         "S",
         "XS",
         "XXS"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_25",
       "title": "Man's short pants",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_008.jpg",
-      "link": "#",
+      "link": "./products__item_25.html",
       "price": 25,
       "rating": 3.5,
       "designer": "Binburhan",
@@ -580,14 +627,15 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_26",
       "title": "Mango people t-shirt",
       "description": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
       "img": "img/index/items/item_001.jpg",
-      "link": "#",
+      "link": "./products__item_26.html",
       "price": 52,
       "rating": 4.5,
       "designer": "Binburhan",
@@ -596,7 +644,7 @@
       "category": "T-Shirt",
       "color": [
         "red",
-        "blue",
+        "green",
         "pink"
       ],
       "size": [
@@ -605,14 +653,15 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_27",
       "title": "Men's Pants",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_009.jpg",
-      "link": "#",
+      "link": "./products__item_27.html",
       "price": 35.20,
       "rating": 3.5,
       "designer": "Levi Straus",
@@ -620,7 +669,6 @@
       "brand": "Levis",
       "category": "Pant",
       "color": [
-        "red",
         "blue",
         "pink"
       ],
@@ -631,14 +679,15 @@
         "M",
         "S",
         "XS"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_28",
       "title": "Men,s Shirt",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_010.jpg",
-      "link": "#",
+      "link": "./products__item_28.html",
       "price": 52,
       "rating": 4.5,
       "designer": "Tommy Hilfiger",
@@ -656,14 +705,15 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_29",
       "title": "Sports Sweatshirt",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_011.jpg",
-      "link": "#",
+      "link": "./products__item_29.html",
       "price": 77,
       "rating": 5,
       "designer": "Tommy Hilfiger",
@@ -681,14 +731,15 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_30",
       "title": "Short-sleeved Shirt",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_012.jpg",
-      "link": "#",
+      "link": "./products__item_30.html",
       "price": 49,
       "rating": 4,
       "designer": "Nerutdin Eroglu",
@@ -698,7 +749,9 @@
       "color": [
         "red",
         "blue",
-        "pink"
+        "pink",
+        "green",
+        "black"
       ],
       "size": [
         "XXL",
@@ -706,14 +759,15 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_31",
       "title": "Autumn Insulated Jacket",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_013.jpg",
-      "link": "#",
+      "link": "./products__item_31.html",
       "price": 129.90,
       "rating": 3.5,
       "designer": "Nerutdin Eroglu",
@@ -732,14 +786,15 @@
         "M",
         "S",
         "XS"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_32",
       "title": "Men's autumn jacket",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_014.jpg",
-      "link": "#",
+      "link": "./products__item_32.html",
       "price": 100,
       "rating": 4,
       "designer": "Levi Straus",
@@ -747,7 +802,7 @@
       "brand": "Levis",
       "category": "Jackets & Coats",
       "color": [
-        "red",
+        "green",
         "blue",
         "pink"
       ],
@@ -757,14 +812,15 @@
         "L",
         "M",
         "S"
-      ]
+      ],
+      "collection": "Men Collection"
     },
     {
       "id": "item_33",
       "title": "Long sweatshirt",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque in maiores rem repudiandae totam.",
       "img": "img/index/items/item_015.jpg",
-      "link": "#",
+      "link": "./products__item_33.html",
       "price": 49,
       "rating": 4,
       "designer": "Binburhan",
@@ -773,7 +829,8 @@
       "category": "Sweatshirt",
       "color": [
         "red",
-        "blue",
+        "green",
+        "black",
         "pink"
       ],
       "size": [
@@ -783,7 +840,8 @@
         "M",
         "S",
         "XS"
-      ]
+      ],
+      "collection": "Men Collection"
     }
   ]
 }

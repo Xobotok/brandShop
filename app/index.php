@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyShop</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<section class="header container">
+<a class="logo" href="index.php">
+    <img src="img/index/logo.png" alt="Logo" class="header__logo_image">
+    <h3 class="animated__char header__logo_text">b</h3>
+    <h3 class="header__logo_text">ran <span>D</span></h3>
+</a>
+    <form action="#" class = "header__search">
+        <button class="header__search_browse" id = "browse__drop-down">Browse <i class="fa fa-caret-down" id = "browse__caret"></i></button>
+        <input type="text" class = "header__search_field" placeholder="Search for Item">
+        <a class="header__search_search" id ="header__search_browse"><i class="fa fa-search"></i></a>
+        <ul class="header__browseDrop invisible" id = "header__browseDrop" >
+            <li class="header__browseDrop_title">women</li>
+            <li class="header__browseDrop_link">Dresses</li>
+            <li class="header__browseDrop_link">Tops</li>
+            <li class="header__browseDrop_link">Sweaters/Knits</li>
+            <li class="header__browseDrop_link">Jackets/Coats</li>
+            <li class="header__browseDrop_link">Blazers</li>
+            <li class="header__browseDrop_link">Denim</li>
+            <li class="header__browseDrop_link">Leggins/Coats</li>
+            <li class="header__browseDrop_link">Skirts/Shorts</li>
+            <li class="header__browseDrop_link">Accessories</li>
+            <li class="header__browseDrop_title">men</li>
+            <li class="header__browseDrop_link">Tees/Tank tops</li>
+            <li class="header__browseDrop_link">Shorts/Polos</li>
+            <li class="header__browseDrop_link">Sweaters</li>
+            <li class="header__browseDrop_link">Sweatshirts/Hoodies</li>
+            <li class="header__browseDrop_link">Blazers</li>
+            <li class="header__browseDrop_link">Jackets/Vests</li>
+        </ul>
+    </form>
+    <form action="#" class="header__basket">
+        <button class="header__cart" id = "header__cart">
+            <img src="img/index/shopping_cart.png" alt="Cart" class="header__cart_cart">
+        </button>
+        <div class="basket__drop invisible" id = "basket__drop">
+
+        </div>
+    </form>
+
+    <form action="#" class = "header__account">
+    <button class="header__myAccount" id = "header__myAccount">
+        My Account <i class="fa fa-caret-down" id = "caret__element"></i>
+    </button>
+        <ul class="dropdown__myAccount invisible" id="dropdown__myAccount">
+            <li class="dropdown__myAccount_list"><a class="dropdown__myAccount_link" href="#">My Account</a></li>
+            <li class="dropdown__myAccount_list"><a class="dropdown__myAccount_link" href="registration.html">Registration</a></li>
+            <li class="dropdown__myAccount_list"><a class="dropdown__myAccount_link" href="#">Shopping Cart</a></li>
+            <li class="dropdown__myAccount_list"><a class="dropdown__myAccount_link" href="#">Log Out</a></li>
+        </ul>
+    </form>
+</section>
+<section class="navigation">
+    <ul class="header__navigation" id = "header__navigation">
+
+
+    </ul>
+</section>
+<section class="brand">
+    <div class="brand__block">
+        <div class="brand__block_title">
+    <h1 class="brand__block_title1">the brand</h1>
+        <h1 class="brand__block_title2">of luxurious <span>fashion</span></h1>
+        </div>
+    </div>
+</section>
+<section class="offers container">
+    <div class="offers__left">
+        <div class="offers__left_big">
+            <a href="#" class="offers__link">
+            <img src="img/index/man.jpg" alt="Offers for men">
+            <h3 class="offers__title">hot deals<br>
+            <span>for men</span>
+            </h3>
+            </a>
+        </div>
+        <div class="offers__left_small">
+            <a href="#" class="offers__link">
+            <img src="img/index/wallet.jpg" alt="Luxurious & trendy accessories">
+            <h3 class="offers__title">luxurious & trendy <br>
+                <span>accessories</span>
+            </h3>
+            </a>
+        </div>
+    </div>
+    <div class="offers__right">
+        <div class="offers__right_small">
+            <a href="#" class="offers__link">
+            <img src="img/index/woman.jpg" alt="30% offers women">
+            <h3 class="offers__title">30% offers <br>
+                <span>women</span>
+            </h3>
+            </a>
+        </div>
+        <div class="offers__right_big">
+            <a href="#" class="offers__link">
+            <img src="img/index/kid.jpg" alt="New arrivals for kids">
+            <h3 class="offers__title">new arrivals<br>
+                <span>for kids</span>
+            </h3>
+            </a>
+        </div>
+    </div>
+</section>
+<section class="featured container" id = "featured">
+    <div class="featured__title">
+        <h3 class="featured__title_title">Featured Items</h3>
+        <p class="featured__title_description">
+            Shop for items based on what we featured in this week
+        </p>
+    </div>
+</section>
+<section class="advantages container">
+    <div class="advantages__leftside">
+        <img src="img/index/offer/offer_left.jpg" alt="Special Offers">
+        <div class="advantages__leftside_title">
+        <h2>30% <span>offer</span></h2>
+        <h3>for women</h3>
+        </div>
+    </div>
+    <div class="advantages__rightside">
+    <div class="advantages__rightside_block">
+        <img src="img/index/offer/icon_truck.png" alt="Delivery" class="rightside__block1_img">
+        <h4 class="rightside__block_title">Free Delivery</h4>
+        <p class="rightside__block_description">
+            Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+    </div>
+        <div class="advantages__rightside_block">
+            <img src="img/index/offer/icon_percent.png" alt="Delivery" class="rightside__block1_img">
+            <h4 class="rightside__block_title">Sales & discounts</h4>
+            <p class="rightside__block_description">
+                Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+        </div>
+        <div class="advantages__rightside_block">
+            <img src="img/index/offer/icon_crown.png" alt="Delivery" class="rightside__block1_img">
+            <h4 class="rightside__block_title">Quality assurance</h4>
+            <p class="rightside__block_description">
+                Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+        </div>
+    </div>
+</section>
+<section class="reviews">
+    <div class="slider container" id = "slider">
+
+    </div>
+    <form action="#" class="reviews__subscribe">
+        <h4 class="reviews__subscribe_title">Subscribe</h4>
+        <h5 class="reviews__subscribe_description">for our newletter and promotion</h5>
+        <input type="text" class="reviews__subscribe_input" placeholder="Enter Your Email">
+        <button class="reviews__subscribe_subscribe">
+            Subscribe
+        </button>
+    </form>
+</section>
+<section class="footer container">
+    <div class="footer__left">
+        <a class="logo footer__logo" href="index.html">
+            <img src="img/index/logo.png" alt="Logo" class="header__logo_image">
+            <h3 class="animated__char header__logo_text">b</h3>
+            <h3 class="header__logo_text">ran <span>D</span></h3>
+        </a>
+
+            <p class="footer__left_text">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate
+        multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+            <p class="footer__left_text">Efficiently plagiarize 24/365 action items and focused infomediaries.
+        Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+
+    </div>
+        <div class="footer__right">
+            <div class="right__block">
+                <h4 class="right__block1_title">company</h4>
+                <a href="#" class="right__block1_link">Home</a>
+                <a href="#" class="right__block1_link">Shop</a>
+                <a href="#" class="right__block1_link">About</a>
+                <a href="#" class="right__block1_link">How It Works</a>
+                <a href="#" class="right__block1_link">Contact</a>
+            </div>
+            <div class="right__block">
+                <h4 class="right__block1_title">information</h4>
+                <a href="#" class="right__block1_link">Terms & Condition</a>
+                <a href="#" class="right__block1_link">Privacy Policy</a>
+                <a href="#" class="right__block1_link">How to Buy</a>
+                <a href="#" class="right__block1_link">How to Sell</a>
+                <a href="#" class="right__block1_link">Promotion</a>
+            </div>
+            <div class="right__block">
+                <h4 class="right__block1_title">shop category</h4>
+                <a href="#" class="right__block1_link">Men</a>
+                <a href="#" class="right__block1_link">Women</a>
+                <a href="#" class="right__block1_link">Kids</a>
+                <a href="#" class="right__block1_link">Apparel</a>
+                <a href="#" class="right__block1_link">Brows All</a>
+            </div>
+        </div>
+</section>
+<div class="copyright">
+    <div class="copyright__text container">
+        <p class="copyright__text_left">&copy; 2017  Brand  All Rights Reserved.</p>
+        <div class="copyright__text_right">
+            <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+            <a href="#" class="facebook"><<i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</div>
+<script src = "src/jquery-3.3.1.min.js"></script>
+<script src = "js/main.js"></script>
+<script src = "js/index.js"></script>
+<script>
+    window.onload = function () {
+        let basket = new Basket();
+        new IndexItems(8, basket, 2, 4);
+        new Dropdown("browse__drop-down", "header__browseDrop", "header__browseDrop_link", "browse__caret");
+        new Dropdown("header__myAccount", "dropdown__myAccount");
+        jsonNavigationRequest("./js/JSON/navigation.json");
+        new Slider();
+    };
+</script>
+</body>
+</html>

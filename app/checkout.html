@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyShop</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/checkout.css">
+</head>
+<body>
+<section class="header container">
+    <a class="logo" href="index.html">
+        <img src="img/index/logo.png" alt="Logo" class="header__logo_image">
+        <h3 class="animated__char header__logo_text">b</h3>
+        <h3 class="header__logo_text">ran <span>D</span></h3>
+    </a>
+    <form action="#" class = "header__search">
+        <button class="header__search_browse" id = "browse__drop-down">Browse <i class="fa fa-caret-down" id = "browse__caret"></i></button>
+        <input type="text" class = "header__search_field" placeholder="Search for Item">
+        <a class="header__search_search" id ="header__search_browse"><i class="fa fa-search"></i></a>
+        <ul class="header__browseDrop invisible" id = "header__browseDrop" >
+            <li class="header__browseDrop_title">women</li>
+            <li class="header__browseDrop_link">Dresses</li>
+            <li class="header__browseDrop_link">Tops</li>
+            <li class="header__browseDrop_link">Sweaters/Knits</li>
+            <li class="header__browseDrop_link">Jackets/Coats</li>
+            <li class="header__browseDrop_link">Blazers</li>
+            <li class="header__browseDrop_link">Denim</li>
+            <li class="header__browseDrop_link">Leggins/Coats</li>
+            <li class="header__browseDrop_link">Skirts/Shorts</li>
+            <li class="header__browseDrop_link">Accessories</li>
+            <li class="header__browseDrop_title">men</li>
+            <li class="header__browseDrop_link">Tees/Tank tops</li>
+            <li class="header__browseDrop_link">Shorts/Polos</li>
+            <li class="header__browseDrop_link">Sweaters</li>
+            <li class="header__browseDrop_link">Sweatshirts/Hoodies</li>
+            <li class="header__browseDrop_link">Blazers</li>
+            <li class="header__browseDrop_link">Jackets/Vests</li>
+        </ul>
+    </form>
+    <form action="#" class="header__basket">
+        <button class="header__cart" id = "header__cart">
+            <img src="img/index/shopping_cart.png" alt="Cart" class="header__cart_cart">
+        </button>
+        <div class="basket__drop invisible" id = "basket__drop">
+
+        </div>
+    </form>
+
+    <form action="#" class = "header__account">
+        <button class="header__myAccount" id = "header__myAccount">
+            My Account <i class="fa fa-caret-down" id = "caret__element"></i>
+        </button>
+        <ul class="dropdown__myAccount invisible" id="dropdown__myAccount">
+            <li class="dropdown__myAccount_list"><a class="dropdown__myAccount_link" href="#">My Account</a></li>
+            <li class="dropdown__myAccount_list"><a class="dropdown__myAccount_link" href="registration.html">Registration</a></li>
+            <li class="dropdown__myAccount_list"><a class="dropdown__myAccount_link" href="#">Shopping Cart</a></li>
+            <li class="dropdown__myAccount_list"><a class="dropdown__myAccount_link" href="#">Log Out</a></li>
+        </ul>
+    </form>
+</section>
+<section class="navigation">
+    <ul class="header__navigation" id = "header__navigation">
+
+
+    </ul>
+</section>
+
+<div class="path">
+    <div class="path__main container">
+        <h4 class="path__main_title">checkout</h4>
+    </div>
+    <div class="path__links container">
+        <a href="./index.html" class="path__links_link">home </a>
+        <p>/</p>
+        <a href="./shoppingcart.html" class="path__links_link"> shopping cart </a>
+        <p>/</p>
+        <p class="path__links_link lastlink"> checkout </p>
+    </div>
+</div>
+
+<section class="checkout container" id = "checkout">
+    <button class="checkout__block_title" id = "checkout__block_shipping">01. customer information </button>
+    <div class="checkout__block" id = "checkout__shipping_block">
+        <div class="leftside">
+        <h5 class="checkout__block_subtitle">check as a guest or register</h5>
+        <p class="checkout__block_description">Register with us for future convenience</p>
+        <form action="#" class="registered">
+            <input type="radio" class="checkout__block_radio" id = "checkout__block_guest" name = "registered">
+            <label for="checkout__block_guest" class = "checkout__block_radiolabel">Checkout as guest</label>
+            <input type="radio" class="checkout__block_radio" id = "checkout__block_register" name = "registered">
+            <label for="checkout__block_register" class = "checkout__block_radiolabel"> register</label>
+            <h5 class="checkout__block_subtitle">Register and save time</h5>
+            <p class="checkout__block_description">Register with us for future convenience</p>
+            <p class="checkout__block_subdescription"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Fast and easy checkout </p>
+            <p class="checkout__block_subdescription"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Easy access to your order history and status </p>
+            <input type="submit" class="checkout__block_submit" id = "shipping__address_submit" value="Continue">
+        </form>
+        </div>
+        <div class="rightside">
+                <h5 class="checkout__block_subtitle">Already registered?</h5>
+                <p class="checkout__block_description">Please log in bellow</p>
+                <form action="#" class="login">
+                    <h5 class = "checkout__block_inputtitle">email address <span>*</span></h5>
+                    <input type = "email" required = "required" class="checkout__block_input" id ="input__mail" >
+                    <h5 class="checkout__block_inputtitle">password <span>*</span></h5>
+                    <input type = "password" required = "required" class="checkout__block_input" id ="input__password" required>
+                    <p class="checkout__block_description"><span>*Required Fields</span></p>
+                    <input type = "submit" class="checkout__block_button" value="log in">
+                    <a href="#" class="checkout__block_forget">Forgot Password?</a>
+                </form>
+            </div>
+    </div>
+    <div class="line"></div>
+    <button class="checkout__block_title" id = "checkout__block_billing">02. Billing information</button>
+    <div class="checkout__block" id = "checkout__shipping_block2">
+        <div class="leftside">
+        <h5 class="checkout__block_subtitle">Total quantity of goods: <span id = "order__quantity"></span></h5>
+            <h5 class="checkout__block_subtitle">Order subtotal: <span id = "order__subtotal"></span></h5>
+        </div>
+        <div class="rightside">
+            <h5 class="checkout__block_subtitle">Your discount: <span id = "order__discount"></span></h5>
+            <h5 class="checkout__block_subtitle">Delivery cost: <span id = "order__delivery"></span></h5>
+        </div>
+        <h5 class="checkout__block_total">Total price: <span id = "order__total"></span></h5>
+    </div>
+    <div class="line"></div>
+    <button class="checkout__block_title" id = "checkout__block_shippinginfo">03. Shipping information</button>
+    <div class="checkout__block" id = "checkout__shipping_block3">
+            <h5 class="checkout__block_subtitle">Country of delivery: <span id = "order__country"></span></h5>
+            <h5 class="checkout__block_subtitle">Delivery state: <span id = "order__state"></span></h5>
+            <h5 class="checkout__block_subtitle">Delivery postcode: <span id = "order__postcode"></span></h5>
+    </div>
+    <div class="line"></div>
+    <button class="checkout__block_title" id = "checkout__block_paymentmethod">04. Payment method</button>
+    <div class="checkout__block" id = "checkout__shipping_block4">
+        <div class="leftside">
+            <h5 class="checkout__block_subtitle">choose your preferred payment method</h5>
+            <form action="#" class="registered">
+                <input type="radio" class="checkout__block_radio" id = "payment__card" name = "registered">
+                <label for="payment__card" class = "checkout__block_radiolabel">bank card <i class="fa fa-credit-card" aria-hidden="true"></i></label>
+                <input type="radio" class="checkout__block_radio" id = "payment__cash" name = "registered">
+                <label for="payment__cash" class = "checkout__block_radiolabel">C.O.D <i class="fa fa-money" aria-hidden="true"></i></label>
+                <button class="payment__submit" id = "confirm__payment">confirm payment</button>
+            </form>
+        </div>
+        <div class="rightside">
+        <div class="checkout__cardblock" id = "checkout__cardblock">
+            <h5 class = "checkout__cardblock_inputtitle">Card number</h5>
+            <input type="text" class="checkout__cardblock_cardnumber" id = "cardnumber__input" placeholder="Enter card number without dashes">
+            <div class="dateblock">
+            <h5 class = "checkout__cardblock_inputtitle date">Date</h5>
+            <input type="text" class="checkout__cardblock_carddate" id = "cardmounth__input" placeholder="MM">
+                <input type="text" class="checkout__cardblock_carddate" id = "cardyear__input" placeholder="YY">
+            </div>
+            <div class="cvvblock">
+            <h5 class = "checkout__cardblock_inputtitle cvv">CVV</h5>
+            <input type="text" class="checkout__cardblock_cardcvv" id = "cardcvv__input" placeholder="XXX">
+            </div>
+            <h5 class = "checkout__cardblock_inputtitle">Cardholder</h5>
+            <input type="text" class="checkout__cardblock_cardholder" id = "cardname__input" placeholder="Enter the name as on the bank card">
+        </div>
+    </div>
+    </div>
+    <div class="line"></div>
+    <button class="checkout__block_title" id = "checkout__block_review">05. Order Review</button>
+    <div class="checkout__block" id = "checkout__shipping_block5">
+        <div class="leftside">
+            <h5 class="checkout__block_subtitle">Customer information</h5>
+            <p class = "checkout__block_description" id = "checkout__customer_name"></p>
+            <p class = "checkout__block_description" id = "checkout__customer_surname"></p>
+            <h5 class="checkout__block_subtitle">Billing information</h5>
+            <p class = "checkout__block_description" id = "checkout__customer_quantity"></p>
+            <p class = "checkout__block_description" id = "checkout__customer_totalprice"></p>
+        </div>
+        <div class="rightside">
+            <h5 class="checkout__block_subtitle">Shipping information</h5>
+            <p class = "checkout__block_description" id = "checkout__customer_country"></p>
+            <p class = "checkout__block_description" id = "checkout__customer_state"></p>
+            <h5 class="checkout__block_subtitle">Payment information</h5>
+            <p class = "checkout__block_description" id = "checkout__customer_payment"></p>
+            <p class = "checkout__block_description" id = "checkout__customer_paymentstatus"></p>
+        </div>
+        <div class="checkout__confirm">
+            <button class="checkout__confirm_button">Order confirm</button>
+        </div>
+
+    </div>
+
+    <div class="line"></div>
+</section>
+
+<section class="reviews">
+    <div class="slider container" id = "slider">
+
+    </div>
+    <form action="#" class="reviews__subscribe">
+        <h4 class="reviews__subscribe_title">Subscribe</h4>
+        <h5 class="reviews__subscribe_description">for our newletter and promotion</h5>
+        <input type="text" class="reviews__subscribe_input" placeholder="Enter Your Email">
+        <button class="reviews__subscribe_subscribe">
+            Subscribe
+        </button>
+    </form>
+</section>
+<section class="footer container">
+    <div class="footer__left">
+        <a class="logo footer__logo" href="index.html">
+            <img src="img/index/logo.png" alt="Logo" class="header__logo_image">
+            <h3 class="animated__char header__logo_text">b</h3>
+            <h3 class="header__logo_text">ran <span>D</span></h3>
+        </a>
+
+        <p class="footer__left_text">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate
+            multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+        <p class="footer__left_text">Efficiently plagiarize 24/365 action items and focused infomediaries.
+            Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+
+    </div>
+    <div class="footer__right">
+        <div class="right__block">
+            <h4 class="right__block1_title">company</h4>
+            <a href="#" class="right__block1_link">Home</a>
+            <a href="#" class="right__block1_link">Shop</a>
+            <a href="#" class="right__block1_link">About</a>
+            <a href="#" class="right__block1_link">How It Works</a>
+            <a href="#" class="right__block1_link">Contact</a>
+        </div>
+        <div class="right__block">
+            <h4 class="right__block1_title">information</h4>
+            <a href="#" class="right__block1_link">Terms & Condition</a>
+            <a href="#" class="right__block1_link">Privacy Policy</a>
+            <a href="#" class="right__block1_link">How to Buy</a>
+            <a href="#" class="right__block1_link">How to Sell</a>
+            <a href="#" class="right__block1_link">Promotion</a>
+        </div>
+        <div class="right__block">
+            <h4 class="right__block1_title">shop category</h4>
+            <a href="#" class="right__block1_link">Men</a>
+            <a href="#" class="right__block1_link">Women</a>
+            <a href="#" class="right__block1_link">Kids</a>
+            <a href="#" class="right__block1_link">Apparel</a>
+            <a href="#" class="right__block1_link">Brows All</a>
+        </div>
+    </div>
+</section>
+<div class="copyright">
+    <div class="copyright__text container">
+        <p class="copyright__text_left">&copy; 2017  Brand  All Rights Reserved.</p>
+        <div class="copyright__text_right">
+            <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+            <a href="#" class="facebook"><<i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</div>
+<script src = "src/jquery-3.3.1.min.js"></script>
+<script src = "src/jquery-ui.js"></script>
+<script src = "js/main.js"></script>
+<script src = "js/checkout.js"></script>
+<script>
+    window.onload = function () {
+        let basket = new Basket();
+        new Dropdown("browse__drop-down", "header__browseDrop", "header__browseDrop_link", "browse__caret");
+        new Dropdown("header__myAccount", "dropdown__myAccount");
+        jsonNavigationRequest("./js/JSON/navigation.json");
+        new Slider();
+        let orderInfo = new OrderInformation();
+
+    };
+</script>
+</body>
+</html>
