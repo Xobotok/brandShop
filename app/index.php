@@ -12,7 +12,7 @@
 </head>
 <body>
 <section class="header container">
-<a class="logo" href="index.html">
+<a class="logo" href="index.php">
     <img src="img/index/logo.png" alt="Logo" class="header__logo_image">
     <h3 class="animated__char header__logo_text">b</h3>
     <h3 class="header__logo_text">ran <span>D</span></h3>
@@ -166,7 +166,7 @@
 </section>
 <section class="footer container">
     <div class="footer__left">
-        <a class="logo footer__logo" href="index.html">
+        <a class="logo footer__logo" href="index.php">
             <img src="img/index/logo.png" alt="Logo" class="header__logo_image">
             <h3 class="animated__char header__logo_text">b</h3>
             <h3 class="header__logo_text">ran <span>D</span></h3>
