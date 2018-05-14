@@ -1,26 +1,5 @@
 <!doctype html>
-<?php
-/*
- * Задание 3
-    $a = 5;
-    $b = '05';
-    var_dump($a == $b);         // Почему true?  -> PHP неявно приводит строку $b 
- * к интовому типу и сравнивает значение 5 == 5, не сравнивая типы данных. Поэтому true
-    var_dump((int)'012345');     // Почему 12345? -> PHP явно приводит строку к интовому типу.
-    var_dump((float)123.0 === (int)123.0); // Почему false? -> идёт строгое сравнение, а типы разные, поэтому false.
-    var_dump((int)0 === (int)'hello, world'); // Почему true? -> hello world приводится к интовому типу, получая значение 0, после чего идёт строгое сравнение  (int)0 сравнивается с (int)0 и получается true. 
- */
-
-//Задание 4
-$h1brand = "the brand";
-$h1luxurious = "of luxurious ";
-$h1fashion = "fashion";
-$featured = "Featured Items";
-$year = "2018";
-?>
-
-
-<html lang="en"> 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -28,12 +7,12 @@ $year = "2018";
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MyShop</title>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 <section class="header container">
-<a class="logo" href="index.php">
+<a class="logo" href="index.html">
     <img src="img/index/logo.png" alt="Logo" class="header__logo_image">
     <h3 class="animated__char header__logo_text">b</h3>
     <h3 class="header__logo_text">ran <span>D</span></h3>
@@ -61,7 +40,6 @@ $year = "2018";
             <li class="header__browseDrop_link">Blazers</li>
             <li class="header__browseDrop_link">Jackets/Vests</li>
         </ul>
-    
     </form>
     <form action="#" class="header__basket">
         <button class="header__cart" id = "header__cart">
@@ -93,8 +71,8 @@ $year = "2018";
 <section class="brand">
     <div class="brand__block">
         <div class="brand__block_title">
-    <h1 class="brand__block_title1"><?php echo $h1brand; ?></h1>
-        <h1 class="brand__block_title2"><?php echo $h1luxurious; ?> <span><?php echo $h1fashion; ?></span></h1>
+    <h1 class="brand__block_title1">the brand</h1>
+        <h1 class="brand__block_title2">of luxurious <span>fashion</span></h1>
         </div>
     </div>
 </section>
@@ -138,7 +116,7 @@ $year = "2018";
 </section>
 <section class="featured container" id = "featured">
     <div class="featured__title">
-        <h3 class="featured__title_title"><?php echo $featured; ?></h3>
+        <h3 class="featured__title_title">Featured Items</h3>
         <p class="featured__title_description">
             Shop for items based on what we featured in this week
         </p>
@@ -188,7 +166,7 @@ $year = "2018";
 </section>
 <section class="footer container">
     <div class="footer__left">
-        <a class="logo footer__logo" href="index.php">
+        <a class="logo footer__logo" href="index.html">
             <img src="img/index/logo.png" alt="Logo" class="header__logo_image">
             <h3 class="animated__char header__logo_text">b</h3>
             <h3 class="header__logo_text">ran <span>D</span></h3>
@@ -229,7 +207,7 @@ $year = "2018";
 </section>
 <div class="copyright">
     <div class="copyright__text container">
-        <p class="copyright__text_left">&copy; <?php echo $year; ?>  Brand  All Rights Reserved.</p>
+        <p class="copyright__text_left">&copy; 2017  Brand  All Rights Reserved.</p>
         <div class="copyright__text_right">
             <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a href="#" class="facebook"><i class="fa fa-twitter" aria-hidden="true"></i></a>
